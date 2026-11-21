@@ -1,0 +1,18 @@
+# Data — re-download with: dandi download DANDI:000128
+data/
+*.nwb
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Model checkpoints
+*.pt
+*.pth
+*.pkl
+
+# macOS
+.DS_Store
