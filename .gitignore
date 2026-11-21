@@ -1,6 +1,13 @@
-# Data — re-download with: dandi download DANDI:000128
-data/
+# Data — see data/README.md
+data/*
+!data/README.md
 *.nwb
+
+# Cached arrays
+*.npy
+*.npz
+*.h5
+*.hdf5
 
 # Python
 __pycache__/
@@ -8,11 +15,15 @@ __pycache__/
 .venv/
 venv/
 *.egg-info/
+.pytest_cache/
 
 # Model checkpoints
 *.pt
 *.pth
 *.pkl
+
+# Logs
+*.log
 
 # macOS
 .DS_Store
